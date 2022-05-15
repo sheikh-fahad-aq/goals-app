@@ -1,0 +1,22 @@
+{
+  "name": "goals-project",
+  "version": "1.0.0",
+  "description": " \"Goalsetter app for build future\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+
+  },
+  "author": "Fahad Ahmed Qureshi",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
